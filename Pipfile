@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+numpy = "*"
+tensorflow = "*"
+pandas = "*"
+kivy = {extras = ["full"], version = "*"}
+protobuf = "==3.20.1"
+cython = "==0.29.19"
+pyjnius = "*"
+virtualenv = "*"
+install-jdk = "*"
+pip = "*"
+wheel = "*"
+scikit-learn = "*"
+certifi = "*"
+buildozer = "*"
+
+[dev-packages]
+black = "*"
+py-sudoku = "*"
+
+[requires]
+python_version = "3.10"
